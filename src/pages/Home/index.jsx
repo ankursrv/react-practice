@@ -1,6 +1,6 @@
 import Card from "../../component/Card"
 
-import cardItemsData from "../../component/Data"        // Import cardItems from Data
+import cardItemsData from "../../component/Data"    // Import Data from Data.jsx
 
 const Home = () => {
     return (
@@ -11,6 +11,7 @@ const Home = () => {
                         <Card key={index}
                         title = { cardItem.title }
                         discription={cardItem.discription}
+                        goToPageLink= {cardItem.goToPageLink}
                         goToPageText={cardItem.goToPageText}
                         />
                     ))

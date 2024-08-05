@@ -7,6 +7,7 @@ import Footer from './component/Footer'
 import ContactForm from './pages/Form'
 import SmoothScroll from './pages/SmoothScroll' // Smooth Scroll
 import MaterialUi from './pages/MaterialUi'     // MaterialUi
+import ExportDefaultAndExportName from './pages/ExportDefaultAndExportName'
 const App =() =>{
   return(
     <BrowserRouter>
@@ -18,6 +19,7 @@ const App =() =>{
         <Route path="/form" element={<ContactForm />} />
         <Route path="/smoothscroll" element={<SmoothScroll />} />
         <Route path="/materialui" element={<MaterialUi />} />
+        <Route path='/exportdefaultandexportname' element={<ExportDefaultAndExportName />} />
       </Routes>
       <Footer />
     </BrowserRouter>
