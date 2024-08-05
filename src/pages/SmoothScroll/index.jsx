@@ -1,5 +1,4 @@
 import { useRef } from "react";
-import scrollToTop from "../../component/ScrollToTop";  // ScrollToTop Component
 
 const SmoothScroll = () => {
 
