@@ -33,7 +33,6 @@ const SmoothScroll = () => {
             <div ref={pageFour} className="h-screen bg-green-400 ">
                 <h2 className="text-center pt-10 text-5xl text-white">Page 4</h2>
             </div>
-            <scrollToTop />
         </section>
     )
 }
