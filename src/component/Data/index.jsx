@@ -30,7 +30,7 @@ const cardItemsData =[
         title: "404",
         discription: "404 , Navigate Link",
         goToPageText: "Go To Page",
-        goToPageLink: "/modal",
+        goToPageLink: "/notfoundpage",
     },
 ];
 

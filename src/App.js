@@ -23,8 +23,8 @@ const App =() =>{
         <Route path="/materialui" element={<MaterialUi />} />
         <Route path='/exportdefaultandexportname' element={<ExportDefaultAndExportName />} />
         <Route path='/modal' element={<ModalPage />} />
-        {/* <Route path='*' element={<NotFoundPage />} /> */}
-        <Route path='*' element={<Navigate to='/' />} />  
+        <Route path='*' element={<NotFoundPage />} />
+        {/* <Route path='*' element={<Navigate to='/' />} />   */}
       </Routes>
       <Footer />
     </BrowserRouter>
