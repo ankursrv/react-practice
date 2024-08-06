@@ -61,5 +61,68 @@ const inputBox =[
         placeholder:'Enter Phone No.',
         className:'phNumber'
     },
-]
-export {cardItemsData, inputBox}
+];
+
+// Footer Component Footer li Data 
+const itemOne = [
+    {
+        label: 'Home',
+        href: '/'
+    },
+    {
+        label: 'Holidays',
+        href: '/holiday'
+    },
+    {
+        label: 'Technology',
+        href: '/technology'
+    },
+    {
+        label: 'Servicess ass',
+        href: '/'
+    },
+    {
+        label: 'Technologies',
+        href: '/'
+    },
+];
+
+const itemTwo = [
+    {
+        label: 'Array / Object destructuring ',
+        href: '/form',
+    },
+    {
+        label: 'Lorem ipsum dolor sit amet.',
+        href: '/holiday',
+    },
+    {
+        label: 'Lorem ipsum dolor sit',
+        href: '/technology',
+    },
+    {
+        label: 'Technologies',
+        href: '/',
+    },
+];
+
+const itemThird = [
+    {
+        label: 'Lorem ipsum dolor sit amet.',
+        href: '/',
+    },
+    {
+        label: 'Lorem ipsum dolor sit amet.',
+        href: '/holiday',
+    },
+    {
+        label: 'Lorem ipsum dolor sit',
+        href: '/technology',
+    },
+    {
+        label: 'Technologies',
+        href: '/',
+    },
+];
+
+export {cardItemsData, inputBox, itemOne, itemTwo, itemThird}

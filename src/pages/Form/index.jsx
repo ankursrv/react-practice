@@ -1,4 +1,4 @@
-import {inputBox} from '../../component/Data'
+import {inputBox} from '../../component/Data'   // Import Data from export name
 
 // Array destructruing Start 
 const [fullName,marks,percentage] = ["Ashok kumar", "299", "80%"]

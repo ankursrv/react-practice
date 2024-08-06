@@ -2,67 +2,7 @@ import { useState } from 'react';
 import { Link } from "react-router-dom"
 import ToastMessage from "../../component/ToastMessage"
 
-const itemOne = [
-    {
-        label: 'Home',
-        href: '/'
-    },
-    {
-        label: 'Holidays',
-        href: '/holiday'
-    },
-    {
-        label: 'Technology',
-        href: '/technology'
-    },
-    {
-        label: 'Servicess ass',
-        href: '/'
-    },
-    {
-        label: 'Technologies',
-        href: '/'
-    },
-]
-
-const itemTwo = [
-    {
-        label: 'Array / Object destructuring ',
-        href: '/form',
-    },
-    {
-        label: 'Lorem ipsum dolor sit amet.',
-        href: '/holiday',
-    },
-    {
-        label: 'Lorem ipsum dolor sit',
-        href: '/technology',
-    },
-    {
-        label: 'Technologies',
-        href: '/',
-    },
-]
-
-const itemThird = [
-    {
-        label: 'Lorem ipsum dolor sit amet.',
-        href: '/',
-    },
-    {
-        label: 'Lorem ipsum dolor sit amet.',
-        href: '/holiday',
-    },
-    {
-        label: 'Lorem ipsum dolor sit',
-        href: '/technology',
-    },
-    {
-        label: 'Technologies',
-        href: '/',
-    },
-]
-
+import { itemOne, itemTwo, itemThird } from '../Data';
 const Footer = () => {
 
     const [toasts, setToasts] = useState([]);

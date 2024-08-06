@@ -1,6 +1,6 @@
 import Card from "../../component/Card"
 
-import {cardItemsData} from "../../component/Data"    // Import Data from Data.jsx
+import {cardItemsData} from "../../component/Data"    // Import Data from export name
 
 const Home = () => {
     return (
