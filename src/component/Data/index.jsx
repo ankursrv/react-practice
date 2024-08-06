@@ -18,6 +18,12 @@ const cardItemsData =[
         discription: "Export Default And Export Name , use the Array of data in Data component and organize the code ",
         goToPageText: "Go To Page",
         goToPageLink: "/exportdefaultandexportname",
+    },
+    {
+        title: "Modal",
+        discription: "Modal Using useState",
+        goToPageText: "Go To Page",
+        goToPageLink: "/modal",
     }
 ]
 export default cardItemsData

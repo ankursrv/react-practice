@@ -1,38 +1,38 @@
-// import React, { useState } from 'react';
-// import ToastMessage from "../../component/ToastMessage"
+import React, { useState } from 'react';
+import ToastMessage from "../../component/ToastMessage"
 const Technology =() => {
-  // const [toasts, setToasts] = useState([]);
+  const [toasts, setToasts] = useState([]);
 
-  // const showToast = (message) => {
-  //   const id = Date.now();
-  //   setToasts([...toasts, { id, message }]);
-  //   setTimeout(() => removeToast(id), 3000); // Auto-remove after 3 seconds
-  // };
+  const showToast = (message) => {
+    const id = Date.now();
+    setToasts([...toasts, { id, message }]);
+    setTimeout(() => removeToast(id), 3000); // Auto-remove after 3 seconds
+  };
 
-  // const removeToast = (id) => {
-  //   setToasts(toasts.filter(toast => toast.id !== id));
-  // };
+  const removeToast = (id) => {
+    setToasts(toasts.filter(toast => toast.id !== id));
+  };
 
-  // const handleSubmit = (event) => {
-  //   event.preventDefault();
-  //   showToast('Form submitted successfully!');
-  //   // Here, you can add any other logic you need to handle form submission.
-  // };
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    showToast('Form submitted successfully!');
+    // Here, you can add any other logic you need to handle form submission.
+  };
 
   return (
     <div className="container">
       <h1>This is Technologys Page</h1>
 
-      {/* <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit}>
         <input type="text" placeholder="Enter something" required />
         <button type="submit">Submit</button>
-      </form> */}
+      </form> 
 
 
-      {/* <button onClick={() => showToast('Info message', 'info')}>Show Info Toast</button> */}
-      {/* <button onClick={() => showToast('Success message', 'success')}>Show Success Toast</button>
-      <button onClick={() => showToast('Error message', 'error')}>Show Error Toast</button> */}
-      {/* <div className="toast-container">
+      <button onClick={() => showToast('Info message', 'info')}>Show Info Toast</button>
+      <button onClick={() => showToast('Success message', 'success')}>Show Success Toast</button>
+      <button onClick={() => showToast('Error message', 'error')}>Show Error Toast</button>
+      <div className="toast-container">
         {
         toasts.map(toast => (
           <ToastMessage
@@ -43,7 +43,7 @@ const Technology =() => {
           />
         ))
         }
-      </div> */}
+      </div>
       
     </div>
   )

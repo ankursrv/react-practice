@@ -71,7 +71,7 @@ const Footer = () => {
     const showToast = (message) => {
         const id = Date.now();
         setToasts([...toasts, { id, message }]);
-        setTimeout(() => removeToast(id), 3000000); // Auto-remove after 3 seconds
+        setTimeout(() => removeToast(id), 3000); // Auto-remove after 3 seconds
     };
 
     const removeToast = (id) => {
@@ -120,7 +120,7 @@ const Footer = () => {
                     <h5 className='mb-9 text-lg font-semibold'>Items Contact</h5>
                     <form onSubmit={handleSubmit} className='flex flex-col gap-5'>
                         <input type="text" placeholder='Email Id' className='p-3' />
-                        <button type="submit">Submit</button>
+                        <button type="submit" className="w-fit py-3 px-7 bg-black text-white font-semibold">Submit</button>
                     </form>
                 </div>
             </div>
