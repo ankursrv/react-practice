@@ -25,7 +25,13 @@ const cardItemsData =[
         discription: "Modal Using useState",
         goToPageText: "Go To Page",
         goToPageLink: "/modal",
-    }
+    },
+    {
+        title: "404",
+        discription: "404 , Navigate Link",
+        goToPageText: "Go To Page",
+        goToPageLink: "/modal",
+    },
 ];
 
 // Form Page Input Box Data 
@@ -102,7 +108,7 @@ const itemTwo = [
     },
     {
         label: 'Technologies',
-        href: '/',
+        href: '/nolog',
     },
 ];
 

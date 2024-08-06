@@ -1,4 +1,4 @@
-import {BrowserRouter,Routes,Route, Form} from 'react-router-dom'
+import {BrowserRouter,Routes,Route, Navigate} from 'react-router-dom'
 import Home from './pages/Home'
 import UseState from './pages/UseState'
 import Technology from './pages/Technology'
@@ -9,6 +9,7 @@ import SmoothScroll from './pages/SmoothScroll' // Smooth Scroll
 import MaterialUi from './pages/MaterialUi'     // MaterialUi
 import ExportDefaultAndExportName from './pages/ExportDefaultAndExportName'
 import ModalPage from './pages/ModalPage'
+import NotFoundPage from './pages/NotFoundPage'
 const App =() =>{
   return(
     <BrowserRouter>
@@ -22,6 +23,8 @@ const App =() =>{
         <Route path="/materialui" element={<MaterialUi />} />
         <Route path='/exportdefaultandexportname' element={<ExportDefaultAndExportName />} />
         <Route path='/modal' element={<ModalPage />} />
+        {/* <Route path='*' element={<NotFoundPage />} /> */}
+        <Route path='*' element={<Navigate to='/' />} />  
       </Routes>
       <Footer />
     </BrowserRouter>

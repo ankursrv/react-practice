@@ -20,7 +20,10 @@ module.exports = {
       },
       fontFamily:{
         Montserrat:['Montserrat', 'sans-serif'],
-      }
+      },
+      height:{
+        customHeightPrimary:'calc(100vh - 500px)',
+      },
     },
   },
   plugins: [],
