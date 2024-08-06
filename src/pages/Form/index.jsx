@@ -1,35 +1,4 @@
-const inputBox =[
-    {
-        labelName:'First Name',
-        type:'text',
-        placeholder:'First Name',
-        className:'fN'
-    },
-    {
-        labelName:'Last Name',
-        type:'text',
-        placeholder:'Last Name',
-        className:'lastN'
-    },
-    {
-        labelName:'Password',
-        type:'password',
-        placeholder:'Password',
-        className:'password'
-    },
-    {
-        labelName:'Email Id',
-        type:'text',
-        placeholder:'Email Id',
-        className:'emailId'
-    },
-    {
-        labelName:'Phone Number*',
-        type:'tel',
-        placeholder:'Enter Phone No.',
-        className:'phNumber'
-    },
-]
+import {inputBox} from '../../component/Data'
 
 // Array destructruing Start 
 const [fullName,marks,percentage] = ["Ashok kumar", "299", "80%"]
@@ -53,7 +22,7 @@ const ContactForm  = () => {
             return(
                 <div className={inputItem.className} key={index}>
                     <label>{inputItem.labelName}</label>
-                    <input type={inputItem.type} placeholder={inputItem.placeholder} />
+                    <input type={inputItem.inputType} placeholder={inputItem.placeholder} />
                 </div>
             )
         })

@@ -1,3 +1,4 @@
+// Home Page Card Item Data 
 const cardItemsData =[
     {
         title: "Smooth Scroll",
@@ -25,5 +26,40 @@ const cardItemsData =[
         goToPageText: "Go To Page",
         goToPageLink: "/modal",
     }
+];
+
+// Form Page Input Box Data 
+
+const inputBox =[
+    {
+        labelName:'First Name',
+        inputType:'text',
+        placeholder:'First Name',
+        className:'fN'
+    },
+    {
+        labelName:'Last Name',
+        inputType:'text',
+        placeholder:'Last Name',
+        className:'lastN'
+    },
+    {
+        labelName:'Password',
+        inputType:'password',
+        placeholder:'Password',
+        className:'password'
+    },
+    {
+        labelName:'Email Id',
+        inputType:'text',
+        placeholder:'Email Id',
+        className:'emailId'
+    },
+    {
+        labelName:'Phone Number*',
+        inputType:'tel',
+        placeholder:'Enter Phone No.',
+        className:'phNumber'
+    },
 ]
-export default cardItemsData
+export {cardItemsData, inputBox}
