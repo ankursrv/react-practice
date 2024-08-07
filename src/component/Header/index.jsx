@@ -26,7 +26,9 @@ const Header = () => {
                         {
                             menus.map(function (menu, index) {
                                 return (
-                                    <li key={index} className="text-blueDark font-semibold text-lg hover:text-dodgerblue active:text-dodgerblue focus:text-dodgerblue transition-all"><Link to={menu.link}>{menu.label}</Link></li>
+                                    <li key={index} className="text-blueDark font-semibold text-lg hover:text-dodgerblue active:text-dodgerblue focus:text-dodgerblue transition-all">
+                                        <Link to={menu.link}>{menu.label}</Link>
+                                    </li>
                                 )
                             })
                         }
