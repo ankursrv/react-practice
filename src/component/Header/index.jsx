@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import { Link, NavLink } from "react-router-dom"
 
 const menus = [
     {
@@ -27,7 +27,7 @@ const Header = () => {
                             menus.map(function (menu, index) {
                                 return (
                                     <li key={index} className="text-blueDark font-semibold text-lg hover:text-dodgerblue active:text-dodgerblue focus:text-dodgerblue transition-all">
-                                        <Link to={menu.link}>{menu.label}</Link>
+                                        <NavLink to={menu.link}>{menu.label}</NavLink>
                                     </li>
                                 )
                             })
