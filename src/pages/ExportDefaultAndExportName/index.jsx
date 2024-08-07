@@ -1,9 +1,10 @@
 import React from 'react'
+import SectionTtl from '../../component/SectionTtl'
 
 const ExportDefaultAndExportName = () => {
     return (
         <section className="max-w-[1320px] mx-auto my-10">
-            <h1 className='text-3xl font-semibold'>ExportDefaultAndExportName</h1>
+            <SectionTtl sectionTtlText='ExportDefaultAndExportName' />
             <div className='grid md:grid-cols-2 mt-5 md:gap-8'>
                 <div>
                     <h4 className='text-lg font-bold'>ExportDefault</h4>

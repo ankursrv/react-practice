@@ -15,7 +15,7 @@ const cardItemsData =[
     },
 
     {
-        title: "Data Component",
+        title: "Data Component, Export Default & Export Name",
         discription: "Export Default And Export Name , use the Array of data in Data component and organize the code ",
         goToPageText: "Go To Page",
         goToPageLink: "/exportdefaultandexportname",

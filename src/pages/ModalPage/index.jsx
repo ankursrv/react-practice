@@ -1,6 +1,6 @@
-
 import { useState } from "react"
 import Modal from "../../component/Modal"
+import SectionTtl from "../../component/SectionTtl"
 
 const ModalPage =()=>{
 
@@ -12,7 +12,7 @@ const ModalPage =()=>{
 
     return (
         <section className="max-w-[1320px] mx-auto my-10">
-           
+           <SectionTtl sectionTtlText='Modal' />
                 {
                     open && (
                         <Modal onClose={handleCloseModal} />

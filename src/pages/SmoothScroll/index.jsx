@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import SectionTtl from "../../component/SectionTtl";
 
 const SmoothScroll = () => {
 
@@ -15,6 +16,7 @@ const SmoothScroll = () => {
     }
     return (
         <section className="max-w-[1320px] mx-auto">
+            <SectionTtl sectionTtlText='Smooth Scroll' />
             <ul className="flex items-center justify-center my-6 gap-4 font-bold text-2xl">
                 <li onClick={() => scrollToSection(pageOne)}>Page 1</li>
                 <li onClick={() => scrollToSection(pageTwo)}>Page 2</li>

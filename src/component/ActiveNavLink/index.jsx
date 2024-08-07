@@ -1,5 +1,5 @@
-
 import { NavLink } from "react-router-dom"
+import SectionTtl from "../SectionTtl" // component inner component call
 const navLink = [
     {
         navName : 'Home',
@@ -29,7 +29,7 @@ const navLink = [
 const ActiveNavLink =()=>{
     return (
         <section className="max-w-[1320px] mx-auto my-10">
-            <h1 className="text-4xl font-bold text-center">Active nav link</h1>
+            <SectionTtl sectionTtlText='Active nav link' />
             <nav className="md:flex justify-between items-center mt-10 hidden">
                 <figure>
                     <img src="./images/logo.png" alt=" logo" />
