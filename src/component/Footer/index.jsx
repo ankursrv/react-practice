@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Link } from "react-router-dom"
 import ToastMessage from "../../component/ToastMessage"
 
-import { itemOne, itemTwo, itemThird } from '../Data';
+import { itemOne, itemTwo, itemThird } from '../Data';  // Import Data from export name
 const Footer = () => {
 
     const [toasts, setToasts] = useState([]);

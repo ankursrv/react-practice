@@ -137,4 +137,32 @@ const itemThird = [
     },
 ];
 
-export {cardItemsData, inputBox, itemOne, itemTwo, itemThird}
+// Active Nav Link Data 
+const navLinkActive = [
+    {
+        navName : 'Home',
+        navPath :'/'
+    },
+    {
+        navName : 'About',
+        navPath :'/About'
+    },
+    {
+        navName : 'Services',
+        navPath :'/Services'
+    },
+    {
+        navName : 'ContactUs',
+        navPath :'/ContactUs'
+    },
+    {
+        navName : 'Technologies',
+        navPath :'/Technologies'
+    },
+    {
+        navName : 'Portfolio',
+        navPath :'/Portfolio'
+    },
+]
+
+export {cardItemsData, inputBox, itemOne, itemTwo, itemThird, navLinkActive}
