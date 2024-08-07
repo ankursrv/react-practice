@@ -33,6 +33,12 @@ const cardItemsData =[
         goToPageLink: "/ActiveNavLink",
     },
     {
+        title: "Navigate",
+        discription: "Navigate Page On Click Button, Navigate One page to Another Page onClick",
+        goToPageText: "Go To Page",
+        goToPageLink: "/NavigateToPage",
+    },
+    {
         title: "404",
         discription: "404 , Navigate Link",
         goToPageText: "Go To Page",

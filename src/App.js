@@ -1,4 +1,4 @@
-import {BrowserRouter,Routes,Route, Navigate} from 'react-router-dom'
+import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import Home from './pages/Home'
 import UseState from './pages/UseState'
 import Technology from './pages/Technology'
@@ -10,6 +10,7 @@ import MaterialUi from './pages/MaterialUi'     // MaterialUi
 import ExportDefaultAndExportName from './pages/ExportDefaultAndExportName'
 import ModalPage from './pages/ModalPage'
 import ActiveNavLinkPage from './pages/ActiveNavLinkPage'  // Nav Link Active
+import NavigateToPage from './pages/NavigateToPage'
 import NotFoundPage from './pages/NotFoundPage'
 const App =() =>{
   return(
@@ -24,6 +25,7 @@ const App =() =>{
         <Route path="/materialui" element={<MaterialUi />} />
         <Route path='/exportdefaultandexportname' element={<ExportDefaultAndExportName />} />
         <Route path='/modal' element={<ModalPage />} />
+        <Route path='/NavigateToPage' element={<NavigateToPage />} />
         <Route path='*' element={<NotFoundPage />} />
         {/* <Route path='*' element={<Navigate to='/' />} />   */}
       </Routes>
