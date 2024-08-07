@@ -9,7 +9,7 @@ import SmoothScroll from './pages/SmoothScroll' // Smooth Scroll
 import MaterialUi from './pages/MaterialUi'     // MaterialUi
 import ExportDefaultAndExportName from './pages/ExportDefaultAndExportName'
 import ModalPage from './pages/ModalPage'
-import ActiveNavLink from './component/ActiveNavLlink'
+import ActiveNavLinkPage from './pages/ActiveNavLinkPage'  // Nav Link Active
 import NotFoundPage from './pages/NotFoundPage'
 const App =() =>{
   return(
@@ -24,11 +24,10 @@ const App =() =>{
         <Route path="/materialui" element={<MaterialUi />} />
         <Route path='/exportdefaultandexportname' element={<ExportDefaultAndExportName />} />
         <Route path='/modal' element={<ModalPage />} />
-        <Route path='/activenavlink' element={<ActiveNavLink />} />
         <Route path='*' element={<NotFoundPage />} />
         {/* <Route path='*' element={<Navigate to='/' />} />   */}
       </Routes>
-      <ActiveNavLink />
+      <ActiveNavLinkPage />
       <Footer />
     </BrowserRouter>
   )

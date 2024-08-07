@@ -1,6 +1,13 @@
 import { useState } from 'react'
+import { useNavigate } from 'react-router-dom'  // Navigate button on Click
+import NavigateOnClickBtn from '../../component/NavigateOnClickBtn'
+
+
 
 const UseState = () => {
+
+  const navigate = useNavigate()  // Navigate button on Click
+  
   const [hide, setHide] = useState(true)
   const [toggle, setToggle] = useState(true)
   return (
@@ -16,6 +23,10 @@ const UseState = () => {
           toggle ? 'Hide' : 'Show'
         }
       </button>
+      <NavigateOnClickBtn
+      navigateBtnText = 'Ankur'
+      onClick={()=>navigate('/')}
+      />
     </section>
   )
 }
