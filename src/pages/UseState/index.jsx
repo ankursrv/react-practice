@@ -1,15 +1,22 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'  // Navigate button on Click
-import NavigateOnClickBtn from '../../component/NavigateOnClickBtn'
+import SectionTtl from '../../component/SectionTtl'
+import NavigateOnClickBtn from '../../component/NavigateOnClickBtn' //NavigateOnClickBtn Component
 
 
 
 const UseState = () => {
 
-  const navigate = useNavigate()  // Navigate button on Click
 
   const [hide, setHide] = useState(true)
   const [toggle, setToggle] = useState(true)
+
+  const navigate = useNavigate()  // Navigate button on Click
+  const navToPage = (url) => {    // navToPage create function no required
+    navigate(url)
+    navigate(url)
+  }
+
   return (
     <>
       <section className="max-w-[1320px] mx-auto bg-whiteLightSecondary py-20 px-4">
@@ -26,12 +33,25 @@ const UseState = () => {
         </button>
       </section>
 
+      {/* Navigate Button Start  */}
       <section className="max-w-[1320px] mx-auto my-14">
-        <NavigateOnClickBtn
-          navigateBtnText='Navigate Home Page'
-          onClick={() => navigate('/')}
-        />
+        <SectionTtl sectionTtlText="Navigate Button On Click" />
+        <div className='flex gap-4'>
+          <NavigateOnClickBtn
+            navigateBtnText='Navigate Home Page'
+            onClick={() => navToPage('/')}
+          />
+          <NavigateOnClickBtn
+            navigateBtnText='Navigate Technology Page'
+            onClick={() => navToPage('/technology')}
+          />
+          <NavigateOnClickBtn
+            navigateBtnText='Navigate Form'
+            onClick={() => navToPage('/form')}
+          />
+        </div>
       </section>
+      {/* Navigate Button END   */}
     </>
   )
 }
