@@ -7,3 +7,12 @@ syntax->
 
 import {BrowserRouter,Routes,Route, Navigate} from 'react-router-dom'
 <Route path='*' element={<Navigate to='/' />} />
+
+
+
+
+
+
+
+<section className="max-w-[1320px] mx-auto my-10">
+</section>

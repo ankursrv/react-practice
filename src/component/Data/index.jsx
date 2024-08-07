@@ -27,6 +27,12 @@ const cardItemsData =[
         goToPageLink: "/modal",
     },
     {
+        title: "Active Nav Link",
+        discription: "Active NavLink: NavLink works like a link by adding the active class. It works in version 6 of React",
+        goToPageText: "Go To Page",
+        goToPageLink: "/ActiveNavLink",
+    },
+    {
         title: "404",
         discription: "404 , Navigate Link",
         goToPageText: "Go To Page",

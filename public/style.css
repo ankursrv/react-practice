@@ -1,1 +1,5 @@
 .active{color: orangered;}
+
+/* Active Nav Link Page active link style start  */
+.activeNavLink .active{color: tomato;}
+/* Active Nav Link Page active link style END  */
