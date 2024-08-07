@@ -15,7 +15,6 @@ const App =() =>{
   return(
     <BrowserRouter>
     <Header />
-    <ActiveNavLink />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/usestate" element={<UseState />} />
@@ -29,6 +28,7 @@ const App =() =>{
         <Route path='*' element={<NotFoundPage />} />
         {/* <Route path='*' element={<Navigate to='/' />} />   */}
       </Routes>
+      <ActiveNavLink />
       <Footer />
     </BrowserRouter>
   )
