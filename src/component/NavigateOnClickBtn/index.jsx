@@ -1,5 +1,5 @@
 
-const NavigateOnClickBtn =({navigateBtnText, onClick})=>{
+const NavigateOnClickBtn =({navigateBtnText, onClick})=>{   // This Component Call to useState page And Form Page
    
   
     return(
