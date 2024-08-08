@@ -45,6 +45,12 @@ const cardItemsData =[
         goToPageLink: "/nestedRouting",
     },
     {
+        title: "Customer Rating",
+        discription: "Mouse Hover rating color change and onClick start then color change",
+        goToPageText: "Go To Page",
+        goToPageLink: "/CustomerRating",
+    },
+    {
         title: "404",
         discription: "404 , Navigate Link",
         goToPageText: "Go To Page",
