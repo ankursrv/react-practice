@@ -8,7 +8,7 @@ const ActiveNavLink =()=>{
             <SectionTtl sectionTtlText='Active nav link' />
             <nav className="md:flex justify-between items-center mt-10 hidden">
                 <figure>
-                    <img src="./images/logo.png" alt=" logo" />
+                    <img src="/images/logo.png" alt=" logo" />
                 </figure>
                 <div>
                     <ul className="flex space-x-8 activeNavLink">

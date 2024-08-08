@@ -19,7 +19,7 @@ const Header = () => {
         <header className="bg-whiteLigth">
             <nav className="flex max-w-[1320px] mx-auto items-center justify-between py-4">
                 <figure>
-                    <Link to="/"><img src="./images/logo.png" alt="" /></Link>
+                    <Link to="/"><img src="/images/logo.png" alt="" /></Link>
                 </figure>
                 <div className="flex gap-12 items-center">
                     <ul className="flex gap-12 items-center justify-between">

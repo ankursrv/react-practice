@@ -8,6 +8,11 @@ const BlogPage = () => {
           <h1 className='text-2xl font-bold'>Blog Page</h1>
           <p>Blog Page Info</p>
         </section>
+        <section>
+          <figure className=' h-[480px]'>
+            <img className='w-full h-full rounded-[32px] object-fill' src="/images/blog-img.png" alt="" />
+          </figure>
+        </section>
       </main>
     </>
   )
