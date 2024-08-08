@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import SectionTtl from "../../component/SectionTtl";
+import {SectionTtl} from "../../component/SectionTtl";
 
 const SmoothScroll = () => {
 

@@ -1,5 +1,5 @@
 import { Link, Outlet } from "react-router-dom"
-import SectionTtl from "../../component/SectionTtl"
+import {SectionTtl} from "../../component/SectionTtl"
 const NestedRouting = () => {
     return (
         <>

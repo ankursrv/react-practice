@@ -1,5 +1,5 @@
 import React from 'react'
-import SectionTtl from '../../component/SectionTtl'
+import {SectionTtl} from '../../component/SectionTtl'
 
 const ExportDefaultAndExportName = () => {
     return (

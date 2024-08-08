@@ -1,5 +1,5 @@
 import Introduction from '../../component/MaterialUi/Introduction';
-import SectionTtl from '../../component/SectionTtl';
+import {SectionTtl} from '../../component/SectionTtl';
 
 const MaterialUi = () => {
     return (

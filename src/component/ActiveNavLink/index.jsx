@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom"
-import SectionTtl from "../SectionTtl" // component inner component call
+import {SectionTtl} from "../SectionTtl" // component inner component call
 import {navLinkActive} from '../Data'   // Import Data from export name
 
 const ActiveNavLink =()=>{

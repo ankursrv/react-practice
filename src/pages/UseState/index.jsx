@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'  // Navigate button on Click
-import SectionTtl from '../../component/SectionTtl'
+import {SectionTtl} from '../../component/SectionTtl'
 import NavigateOnClickBtn from '../../component/NavigateOnClickBtn' //NavigateOnClickBtn Component
 
 

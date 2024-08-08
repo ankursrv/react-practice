@@ -1,6 +1,6 @@
 import { useState } from "react"
 import Modal from "../../component/Modal"
-import SectionTtl from "../../component/SectionTtl"
+import {SectionTtl} from "../../component/SectionTtl"
 
 const ModalPage =()=>{
 
