@@ -14,7 +14,6 @@ const UseState = () => {
   const navigate = useNavigate()  // Navigate button on Click
   const navToPage = (url) => {    // navToPage create function no required
     navigate(url)
-    navigate(url)
   }
 
   return (
