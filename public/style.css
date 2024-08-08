@@ -1,4 +1,4 @@
-header .active{color: orangered;}
+nav .active{color: orangered;}
 
 /* Active Nav Link Page active link style start  */
 .activeNavLink .active{color: tomato;}
