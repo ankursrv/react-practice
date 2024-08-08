@@ -39,6 +39,12 @@ const cardItemsData =[
         goToPageLink: "/NavigateToPage",
     },
     {
+        title: "Nested Routing",
+        discription: "Ek Route Bnakar uske andar Ek aur Route define krna Nested Routing khte hai.",
+        goToPageText: "Go To Page",
+        goToPageLink: "/nestedRouting",
+    },
+    {
         title: "404",
         discription: "404 , Navigate Link",
         goToPageText: "Go To Page",

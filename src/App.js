@@ -12,6 +12,10 @@ import ModalPage from './pages/ModalPage'
 import ActiveNavLinkPage from './pages/ActiveNavLinkPage'  // Nav Link Active
 import NavigateToPage from './pages/NavigateToPage'
 import NotFoundPage from './pages/NotFoundPage'
+import NestedRouting from './pages/NestedRouting'       //Neted Route Page
+import CompanyPage from './pages/NestedRouting/CompanyPage'   //Neted Route Page inner Routing
+import SocialPage from './pages/NestedRouting/SocialPage'   //Neted Route Page inner Routing
+import BlogPage from './pages/NestedRouting/BlogPage'   //Neted Route Page inner Routing
 const App =() =>{
   return(
     <BrowserRouter>
@@ -26,6 +30,11 @@ const App =() =>{
         <Route path='/exportdefaultandexportname' element={<ExportDefaultAndExportName />} />
         <Route path='/modal' element={<ModalPage />} />
         <Route path='/NavigateToPage' element={<NavigateToPage />} />
+        <Route path='/nestedrouting/' element={<NestedRouting />}>    
+        <Route path='companypage' element={<CompanyPage />} />
+        <Route path='socialpage' element={<SocialPage />} />
+        <Route path='BlogPage' element={<BlogPage />} />
+        </Route>
         <Route path='*' element={<NotFoundPage />} />
         {/* <Route path='*' element={<Navigate to='/' />} />   */}
       </Routes>
