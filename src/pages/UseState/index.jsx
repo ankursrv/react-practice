@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'  // Navigate button on Click
-import {SectionTtl} from '../../component/SectionTtl'
+import { SectionTtl } from '../../component/SectionTtl'
 import NavigateOnClickBtn from '../../component/NavigateOnClickBtn' //NavigateOnClickBtn Component
+import ReuseableButton from '../../component/ReuseableButton'
 
 
 
@@ -51,6 +52,36 @@ const UseState = () => {
         </div>
       </section>
       {/* Navigate Button END   */}
+
+      <section className="max-w-[1320px] mx-auto my-10">
+        <SectionTtl sectionTtlText="Reuseable Button" />
+
+        <div className='flex gap-8'>
+          <ReuseableButton
+            type="button"
+            primary
+            onClick={() => alert("Default Style Button")}>
+
+            Button Style Default
+          </ReuseableButton>
+
+          <ReuseableButton
+            type="Submit"
+            secondary>
+
+            Button Style secondary
+          </ReuseableButton>
+          
+
+          <ReuseableButton
+            type="Submit"
+            tertery>
+
+            Button Style Primary
+          </ReuseableButton>
+
+        </div>
+      </section>
     </>
   )
 }
