@@ -5,7 +5,7 @@ const SectionWrapper = ({ id, title, children, className }) => {
     <section
       id={id || ""}
       className={`${
-        className ? className : "bg-red-400"
+        className ? className : "bg-blacPrimary"
       } py-28 flex justify-center`}
     >
       <div className="w-[1200px] mx-auto px-5 flex flex-col items-center">

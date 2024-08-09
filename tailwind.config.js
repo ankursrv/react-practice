@@ -10,6 +10,7 @@ module.exports = {
         whiteLightSecondary: '#bdbcbc',
         whitePrimary: '#C7C7C7',
         blueDark: 'rgb(6, 2, 28)',
+        blacPrimary: '#302F34',
         dodgerblue: 'dodgerblue',
         gray:'#dadada',
         darkBlue:'#293548',
