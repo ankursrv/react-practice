@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import ToastMessage from "../../component/ToastMessage"
-import Section from '../../component/Section';
+import SectionWrapper from "../../component/SectionWrapper";
 const Technology =() => {
   const [toasts, setToasts] = useState([]);
 
@@ -49,7 +49,7 @@ const Technology =() => {
         ))}
       </div>
 
-      <Section className="bg-black">
+      <SectionWrapper className="bg-black">
         <div className="grid md:grid-cols-2 items-center">
           <div className="md:max-w-[500px]">
             <img src="/images/tech-icons.png" alt="html,css,js,php" />
@@ -67,11 +67,11 @@ const Technology =() => {
             </p>
           </div>
         </div>
-      </Section>
+      </SectionWrapper>
 
-      <Section title="using Props Title in this section"></Section>
+      <SectionWrapper title="using Props Title in this SectionWrapper"></SectionWrapper>
 
-      <Section className="bg-dodgerblue">Wrapper Section</Section>
+      <SectionWrapper className="bg-dodgerblue">Wrapper SectionWrapper</SectionWrapper>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Section = ({ id, title, children, className }) => {
+const SectionWrapper = ({ id, title, children, className }) => {
   return (
     <section
       id={id || ""}
@@ -20,4 +20,4 @@ const Section = ({ id, title, children, className }) => {
   );
 };
 
-export default Section;
+export default SectionWrapper;
