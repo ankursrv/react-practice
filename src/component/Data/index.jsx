@@ -1,67 +1,74 @@
 // Home Page Card Item Data 
-const cardItemsData =[
-    {
-        title: "Smooth Scroll",
-        discription: "Smooth Scroll using useRef Hooks",
-        goToPageText: "Go To Page",
-        goToPageLink: "/smoothScroll",
-    },
+const cardItemsData = [
+  {
+    title: "Smooth Scroll",
+    discription: "Smooth Scroll using useRef Hooks",
+    goToPageText: "Go To Page",
+    goToPageLink: "/smoothScroll",
+  },
 
-    {
-        title: "Material UI",
-        discription: "Material UI is an open-source React component library that implements Google's Material Design.",
-        goToPageText: "Go To Page",
-        goToPageLink: "/materialui",
-    },
+  {
+    title: "Material UI",
+    discription:"Material UI is an open-source React component library that implements Google's Material Design.",
+    goToPageText: "Go To Page",
+    goToPageLink: "/materialui",
+  },
 
-    {
-        title: "Data Component, Export Default & Export Name",
-        discription: "Export Default And Export Name , use the Array of data in Data component and organize the code ",
-        goToPageText: "Go To Page",
-        goToPageLink: "/exportdefaultandexportname",
-    },
-    {
-        title: "Modal",
-        discription: "Modal Using useState",
-        goToPageText: "Go To Page",
-        goToPageLink: "/modal",
-    },
-    {
-        title: "Active Nav Link",
-        discription: "Active NavLink: NavLink works like a link by adding the active class. It works in version 6 of React",
-        goToPageText: "Go To Page",
-        goToPageLink: "/ActiveNavLink",
-    },
-    {
-        title: "Navigate",
-        discription: "Navigate Page On Click Button, Navigate One page to Another Page onClick",
-        goToPageText: "Go To Page",
-        goToPageLink: "/NavigateToPage",
-    },
-    {
-        title: "Nested Routing",
-        discription: "Ek Route Bnakar uske andar Ek aur Route define krna Nested Routing khte hai.",
-        goToPageText: "Go To Page",
-        goToPageLink: "/nestedRouting",
-    },
-    {
-        title: "Customer Rating",
-        discription: "Mouse Hover rating color change and onClick start then color change",
-        goToPageText: "Go To Page",
-        goToPageLink: "/CustomerRating",
-    },
-    {
-        title: "Reuseable Button",
-        discription: "Reuseable Button Component using Props",
-        goToPageText: "Go To Page",
-        goToPageLink: "/ReuseableButton",
-    },
-    {
-        title: "404",
-        discription: "404 , Navigate Link",
-        goToPageText: "Go To Page",
-        goToPageLink: "/notfoundpage",
-    },
+  {
+    title: "Data Component, Export Default & Export Name",
+    discription:"Export Default And Export Name , use the Array of data in Data component and organize the code ",
+    goToPageText: "Go To Page",
+    goToPageLink: "/exportdefaultandexportname",
+  },
+  {
+    title: "Modal",
+    discription: "Modal Using useState",
+    goToPageText: "Go To Page",
+    goToPageLink: "/modal",
+  },
+  {
+    title: "Active Nav Link",
+    discription:"Active NavLink: NavLink works like a link by adding the active class. It works in version 6 of React",
+    goToPageText: "Go To Page",
+    goToPageLink: "/ActiveNavLink",
+  },
+  {
+    title: "Navigate Button",
+    discription:
+      "Navigate Page On Click Button, Navigate One page to Another Page onClick",
+    goToPageText: "Go To Page",
+    goToPageLink: "/NavigateToPage",
+  },
+  {
+    title: "Nested Routing",
+    discription: "Ek Route Bnakar uske andar Ek aur Route define krna Nested Routing khte hai.",
+    goToPageText: "Go To Page",
+    goToPageLink: "/nestedRouting",
+  },
+  {
+    title: "Customer Rating",
+    discription:"Mouse Hover rating color change and onClick start then color change",
+    goToPageText: "Go To Page",
+    goToPageLink: "/CustomerRating",
+  },
+  {
+    title: "Reuseable Button",
+    discription: "Reuseable Button Component using Props",
+    goToPageText: "Go To Page",
+    goToPageLink: "/ComponentShowcase",
+  },
+  {
+    title: "Section Wrapper",
+    discription: "Section Wrapper create with conditional using props and props title",
+    goToPageText: "Go To Page",
+    goToPageLink: "/ComponentShowcase",
+  },
+  {
+    title: "404",
+    discription: "404 , Navigate Link",
+    goToPageText: "Go To Page",
+    goToPageLink: "/notfoundpage",
+  },
 ];
 
 // Form Page Input Box Data 

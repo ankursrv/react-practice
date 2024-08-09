@@ -16,7 +16,8 @@ import NestedRouting from './pages/NestedRouting'       //Neted Route Page
 import CompanyPage from './pages/NestedRouting/CompanyPage'   //Neted Route Page inner Routing
 import SocialPage from './pages/NestedRouting/SocialPage'   //Neted Route Page inner Routing
 import BlogPage from './pages/NestedRouting/BlogPage'   //Neted Route Page inner Routing
-import CustomerRating from './pages/CustomerRating'
+import CustomerRating from './pages/CustomerRating'     
+import ComponentShowcase from './pages/ComponentShowcase' // ComponentShowcase
 const App =() =>{
   return(
     <BrowserRouter>
@@ -37,6 +38,7 @@ const App =() =>{
         <Route path='BlogPage' element={<BlogPage />} />
         </Route>
         <Route path='/CustomerRating' element={<CustomerRating />} />
+        <Route path='/ComponentShowcase' element={<ComponentShowcase />} />
         <Route path='*' element={<NotFoundPage />} />
         {/* <Route path='*' element={<Navigate to='/' />} />   */}
       </Routes>
