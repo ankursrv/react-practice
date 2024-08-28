@@ -1,4 +1,4 @@
-import {BrowserRouter,Routes,Route} from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import UseState from './pages/UseState'
 import Technology from './pages/Technology'
@@ -12,16 +12,17 @@ import ModalPage from './pages/ModalPage'
 import ActiveNavLinkPage from './pages/ActiveNavLinkPage'  // Nav Link Active
 import NavigateToPage from './pages/NavigateToPage'
 import NotFoundPage from './pages/NotFoundPage'
-import NestedRouting from './pages/NestedRouting'       //Neted Route Page
+import NestedRouting from './pages/NestedRouting'       //Nested Route Page
 import CompanyPage from './pages/NestedRouting/CompanyPage'   //Neted Route Page inner Routing
 import SocialPage from './pages/NestedRouting/SocialPage'   //Neted Route Page inner Routing
 import BlogPage from './pages/NestedRouting/BlogPage'   //Neted Route Page inner Routing
-import CustomerRating from './pages/CustomerRating'     
+import CustomerRating from './pages/CustomerRating'
 import ComponentShowcase from './pages/ComponentShowcase' // ComponentShowcase
-const App =() =>{
-  return(
+import Portfolio2 from './pages/Portfolio2'
+const App = () => {
+  return (
     <BrowserRouter>
-    <Header />
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/usestate" element={<UseState />} />
@@ -32,13 +33,14 @@ const App =() =>{
         <Route path='/exportdefaultandexportname' element={<ExportDefaultAndExportName />} />
         <Route path='/modal' element={<ModalPage />} />
         <Route path='/NavigateToPage' element={<NavigateToPage />} />
-        <Route path='/nestedrouting/' element={<NestedRouting />}>    
-        <Route path='companypage' element={<CompanyPage />} />
-        <Route path='socialpage' element={<SocialPage />} />
-        <Route path='BlogPage' element={<BlogPage />} />
+        <Route path='/nestedrouting/' element={<NestedRouting />}>
+          <Route path='companypage' element={<CompanyPage />} />
+          <Route path='socialpage' element={<SocialPage />} />
+          <Route path='BlogPage' element={<BlogPage />} />
         </Route>
         <Route path='/CustomerRating' element={<CustomerRating />} />
         <Route path='/ComponentShowcase' element={<ComponentShowcase />} />
+        <Route path='/Portfolio2' element={<Portfolio2 />} />
         <Route path='*' element={<NotFoundPage />} />
         {/* <Route path='*' element={<Navigate to='/' />} />   */}
       </Routes>
